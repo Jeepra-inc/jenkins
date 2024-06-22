@@ -18,7 +18,7 @@ node {
 
         stage'Test'
                 sh 'python3 -m venv env'
-                sh '. env/bin/activate'
+                sh '. source env/bin/activate'
                 sh 'pip install -r requirements.txt'
                 // Add other commands specific to your application
             
