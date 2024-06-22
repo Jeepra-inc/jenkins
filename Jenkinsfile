@@ -16,11 +16,11 @@ node {
         //     // sh 'env/bin/pip install -r requirements.txt'
         //     sh 'env/bin/python3.10 manage.py test --testrunner=blog.tests.test_runners.NoDbTestRunner'
 
-        stage'Test'
-                sh 'python3 -m venv env'
-                sh '. source env/bin/activate'
-                sh 'pip install -r requirements.txt'
-                // Add other commands specific to your application
+        // stage'Test'
+        //         sh 'python3 -m venv env'
+        //         sh '. source env/bin/activate'
+        //         sh 'pip install -r requirements.txt'
+        //         // Add other commands specific to your application
             
         
 
